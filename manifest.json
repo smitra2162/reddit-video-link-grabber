@@ -1,0 +1,22 @@
+{
+    "manifest_version": 2,
+    "name": "Reddit Video URL Copier",
+    "version": "1.0",
+    "description": "Copies the fallback URL of a Reddit video to the clipboard.",
+    "permissions": [
+        "activeTab",
+        "clipboardWrite"
+    ],
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "browser_action": {
+        "default_icon": {
+            "48": "icons/PeteNote.png"
+        },
+        "default_title": "Copy Reddit Video URL"
+    },
+    "icons": {
+        "48": "icons/icon-48.png"
+    }
+}
