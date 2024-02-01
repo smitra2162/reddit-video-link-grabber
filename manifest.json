@@ -12,11 +12,11 @@
     },
     "browser_action": {
         "default_icon": {
-            "48": "icons/PeteNote.png"
+            "48": "icons/PepeNote.png"
         },
         "default_title": "Copy Reddit Video URL"
     },
     "icons": {
-        "48": "icons/icon-48.png"
+        "48": "icons/PeteNote.png"
     }
 }
